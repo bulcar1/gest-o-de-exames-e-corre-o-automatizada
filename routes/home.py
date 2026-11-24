@@ -9,3 +9,7 @@ def home():
 @home_route.route('/exames')
 def exames():
     return render_template('exames.html')
+
+@home_route.route('/login')
+def login():
+    return render_template('login.html')
